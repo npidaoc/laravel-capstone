@@ -1,0 +1,112 @@
+.fancy {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  line-height: 1.42857143;
+  color: #000;
+  font-size: 13px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.modal-content {
+  background-color: #ffffff;
+}
+
+.title{
+align-items: center;
+margin-top: 10px;
+font-size: 25px;
+color: #ff0000;
+  
+}
+
+.username input {
+  border: 0;
+}
+
+.username, .password, .email, .mobilenumber {
+  color: #000;
+}
+
+.password input, .username input, .email input {
+
+  display: block;
+  width: 100%;
+  background: #EBECFE;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+
+.mobilenumber input {
+  display: block;
+  width: 100%;
+  background: #EBECFE;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+
+.container .btn-primary, .btn-secondary, .common-btn, .btn-secondary.common-btn, .btn-secondary.common-btn {
+  background-color: rgb(238, 127, 127);
+  width: 80%;
+  /* Add any other common styling for all buttons here */
+}
+
+
+.login-container {
+  margin-bottom: -200%;
+}
+
+
+
+  .footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px; /* Add space between the footer and the content above it */
+  }
+  
+  .footer-menu {
+    list-style-type: none;
+    /* padding: 0;
+    margin: 0; */
+    display: flex;
+    justify-content: center; /* Center the menu items horizontally */
+  }
+  
+  .footer-menu li {
+    display: inline;
+    margin: 0 10px; /* Add margin to both sides */
+    margin-left: 100%;
+    margin-right: -200%;
+
+  }
+  
+  .footer-menu li:not(:last-child) {
+    margin-right: 10px; /* Add space between the footer menu items */
+  }
+  
+  .footer-menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+
+
+
+
+
+
+

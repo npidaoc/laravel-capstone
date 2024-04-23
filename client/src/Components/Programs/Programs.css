@@ -1,0 +1,148 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.programs img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+    background-color: rgb(238, 223, 223);
+}
+
+.program {
+    flex-basis: 31%;
+    position: relative;
+    overflow: hidden; /* Ensure caption doesn't overflow */
+}
+
+.modal-body {
+  padding-top: 10px;
+}
+
+.modal-body p {
+  margin-top: 10px; 
+  font-size: 20px;
+  color: #212121;
+}
+
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out; /* Smooth transition for opacity */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.caption p {
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.program:hover .caption {
+    opacity: 1; /* Show caption on hover */
+}
+
+@media (max-width: 650px) {
+    .programs {
+        flex-direction: column;
+    }
+
+    .program {
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
+
+
+/* Existing CSS remains unchanged */
+
+/* Modal */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 72%; /* Could be more or less, depending on screen size */
+    height: 50%;
+    border-radius: 20px;
+  }
+  
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-open {
+    overflow: hidden;
+  }
+
+  /* Modal Header */
+.modal-header {
+    text-align: center; /* Align text to center */
+    color: #fc0000;
+  }
+
+  .modal-body {
+    text-align: center;
+  }
+
+  .register-btn, .close-btn {
+    background: #f44646;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+
+  .close-btn {
+    cursor: pointer;
+  }
+
+  .register-btn {
+    float: right;
+  }
