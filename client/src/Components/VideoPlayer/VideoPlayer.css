@@ -13,7 +13,7 @@
 
 .video-player video {
     width: 90%;
-    max-width: 900px;
+    max-width: 800px;
     height: auto;
     border: 4px solid #fff;
 }

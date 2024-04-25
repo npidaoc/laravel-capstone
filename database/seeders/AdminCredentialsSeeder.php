@@ -13,7 +13,7 @@ class AdminCredentialsSeeder extends Seeder
         DB::table('admin_credentials')->insert([
             'username' => 'admin',
             // 'password' => Hash::make('06181993'),
-            'password' => '06181993', // Plain text password
+            'password' => '06181993',
         ]);
     }
 }
