@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import logo from '../../assets/logo.png';
-import menu_icon from '../../assets/menu_icon.png';
+import menu_icon from '../../assets/menu-icon.png';
 import { Link } from 'react-scroll';
 import { NavLink, useNavigate } from 'react-router-dom';
 

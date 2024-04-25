@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import './Header.css';
 import { Link, useNavigate } from 'react-router-dom';
@@ -19,22 +17,22 @@ function Header({ OpenSidebar }) {
   };
 
   return (
-    <header className='header'>
-      <div className='menu-icon'>
-        <BsJustify className='icon' onClick={OpenSidebar} />
+    <header className='custom-header'>
+      <div className='custom-menu-icon'>
+        <BsJustify className='custom-icon' onClick={OpenSidebar} />
       </div>
-      <div className='header-left'>
+      <div className='custom-header-left'>
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-          <span className="home-text">Home</span>
+          <span className="custom-home-text">Home</span>
         </Link>
       </div>
-      <div className='header-right'>
-        <BsFillBellFill className='icon' />
-        <BsFillEnvelopeFill className='icon' />
-        <div className="dropdown" onMouseEnter={handleDropdownToggle} onMouseLeave={handleDropdownToggle}>
-          <BsPersonCircle className='icon' />
+      <div className='custom-header-right'>
+        <BsFillBellFill className='custom-icon' />
+        <BsFillEnvelopeFill className='custom-icon' />
+        <div className="custom-dropdown" onMouseEnter={handleDropdownToggle} onMouseLeave={handleDropdownToggle}>
+          <BsPersonCircle className='custom-icon' />
           {isDropdownOpen && (
-            <div className="dropdown-content">
+            <div className="custom-dropdown-content">
               <p>Profile</p>
               <p>Settings</p>
               <p onClick={handleLogout}>Logout</p>
@@ -47,6 +45,7 @@ function Header({ OpenSidebar }) {
 }
 
 export default Header;
+
 
 
 
