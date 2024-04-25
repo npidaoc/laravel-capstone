@@ -60,10 +60,9 @@
 }
 
 .btn.dark-btn:hover {
-    background-color: #ff0000; /* Darken button background color on hover */
+    background-color: #ff0000; 
   }
   
-  /* Add animation to button */
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -76,7 +75,7 @@
   }
   
   .btn.dark-btn {
-    animation: fadeIn 0.5s ease; /* Apply fadeIn animation to button */
+    animation: fadeIn 0.5s ease;
   }
 
 @media (max-width: 700px) {

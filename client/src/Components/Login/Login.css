@@ -61,7 +61,6 @@ color: #ff0000;
 .container .btn-primary, .btn-secondary, .common-btn, .btn-secondary.common-btn, .btn-secondary.common-btn {
   background-color: rgb(238, 127, 127);
   width: 80%;
-  /* Add any other common styling for all buttons here */
 }
 
 
@@ -75,20 +74,18 @@ color: #ff0000;
     background-color: #f0f0f0;
     padding: 10px 0;
     text-align: center;
-    margin-top: 20px; /* Add space between the footer and the content above it */
+    margin-top: 20px; 
   }
   
   .footer-menu {
     list-style-type: none;
-    /* padding: 0;
-    margin: 0; */
     display: flex;
-    justify-content: center; /* Center the menu items horizontally */
+    justify-content: center; 
   }
   
   .footer-menu li {
     display: inline;
-    margin: 0 10px; /* Add margin to both sides */
+    margin: 0 10px; 
     margin-left: 100%;
     margin-right: -200%;
 
